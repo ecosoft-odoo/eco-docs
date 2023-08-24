@@ -50,4 +50,4 @@ Markdown Cheatsheet:
 
 **Remarks:**
 
-This document template can be viewed here -> https://ecosoft-odoo.github.io/eco-docs/
+This document template can be viewed here -> https://ecosoft-odoo.github.io/eco-docs/15.0
