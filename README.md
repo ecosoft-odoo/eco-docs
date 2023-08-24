@@ -1,4 +1,4 @@
-# ECO MKDocs Document Template t
+# ECO MKDocs Document Template
 
 ## What is MKDocs?
 
