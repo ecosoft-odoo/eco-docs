@@ -22,4 +22,4 @@ jobs:
           git config --local user.name "github-actions[bot]"
       - run: pip install mkdocs-material
       - run: pip install mike
-      - run: mike deploy 15.0 --push
+      - run: mike deploy 15.0 --push --force
