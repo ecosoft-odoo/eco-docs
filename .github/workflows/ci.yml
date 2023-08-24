@@ -24,6 +24,7 @@ jobs:
         shell: bash
         run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
         id: extract_branch
+      - run: git pull
       - run: pip install mkdocs-material
       - run: pip install mike
       - run: mike deploy 15.0 --push
