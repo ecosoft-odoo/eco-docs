@@ -1,5 +1,8 @@
 name: Generate Ecosoft Documentation Template
 on:
+  pull_request:
+    branches:
+      - 15.0
   push:
     branches:
       - 15.0
