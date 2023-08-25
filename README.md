@@ -22,8 +22,8 @@ For more detail, please visit https://www.mkdocs.org
 
 1. Install mkdocs and theme plugin
     ```
-    $ pip install mkdocs
-    $ pip install mkdocs-material
+    $ pip3 install mkdocs
+    $ pip3 install mkdocs-material
     ```
 2. Clone this repo for your project documentation
     ```
@@ -34,7 +34,7 @@ For more detail, please visit https://www.mkdocs.org
 
 Use `.md` files as sample, it should be easy enough to get started. Just a few notes that,
 
-* `mkdocs.yaml` is the configuration file (enough for Ecosoft). More detailed here, https://www.mkdocs.org/user-guide/configuration/
+* `mkdocs.yml` is the configuration file (enough for Ecosoft). More detailed here, https://www.mkdocs.org/user-guide/configuration/
 * All `.md` source files will be in `docs` folder, this is where you add content.
 * To build all `.md` files into a `site` folder, run command, `> mkdocs build`. Note that PDF file will be created into `site/pdf`
 * To test, run command, `> mkdocs build` and go to http://localhost:8000/
@@ -45,7 +45,7 @@ Markdown Cheatsheet:
 **Note:**
 
 * The `site` folder is ignored by `.gitignore`
-* Just push to master branch, github action in `.github/workflows/ci.yml` will auto generate `site` folder into branch `gh-pages`.
+* Just push to master branch, github action in `.github/workflows/build_docs.yml` will auto generate `site` folder into branch `gh-pages`.
 * If you enable **Github Pages** on branch `gh-pages`, you will get the document site at `https://<my_account>.github.io/<my_project>`
 
 **Remarks:**
