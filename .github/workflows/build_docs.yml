@@ -1,4 +1,4 @@
-name: Generate Ecosoft Documentation Template
+name: Build Documentation Template
 on:
   push:
     branches:
