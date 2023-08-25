@@ -1,4 +1,4 @@
-name: Delete unmerged branch
+name: Delete Unmerged Branch
 
 on:
   pull_request:
