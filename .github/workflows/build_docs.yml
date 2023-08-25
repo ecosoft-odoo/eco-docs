@@ -1,4 +1,4 @@
-name: Build Documentation Template
+name: Build Document Template
 on:
   push:
     branches:
