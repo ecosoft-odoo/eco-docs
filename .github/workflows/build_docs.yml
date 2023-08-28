@@ -20,5 +20,7 @@ jobs:
       - uses: fregante/setup-git-user@v2
       - run: git pull
       #- run: pip install mkdocs-material
-      - run: pip install mike
-      - run: mike deploy 15.0 --push
+      - run: pip install mkdocs
+      - run: mkdocs serve
+      #- run: pip install mike
+      #- run: mike deploy 15.0 --push
