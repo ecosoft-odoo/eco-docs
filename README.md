@@ -27,7 +27,7 @@ For more detail, please visit https://www.mkdocs.org
     ```
 2. Clone this repo for your project documentation
     ```
-    $ git clone https://github.com/ecosoft-odoo/eco-docs-template.git
+    $ git clone https://github.com/ecosoft-odoo/ecosoft-document-template.git
     ```
 
 ## Using this template
@@ -50,4 +50,4 @@ Markdown Cheatsheet:
 
 **Remarks:**
 
-This document template can be viewed here -> https://ecosoft-odoo.github.io/eco-docs-template/15.0
+This document template can be viewed here -> https://ecosoft-odoo.github.io/ecosoft-document-template/15.0
