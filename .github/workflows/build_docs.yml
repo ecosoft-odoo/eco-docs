@@ -3,8 +3,8 @@ on:
   push:
     branches:
       - 15.0
-permissions:
-  contents: write
+#permissions:
+#  contents: write
 jobs:
   deploy:
     runs-on: ubuntu-latest
