@@ -13,4 +13,4 @@ jobs:
           git config user.email github-actions[bot]@users.noreply.github.com
           git pull
       - run: pip install mike mkdocs-material
-      - run: mike deploy 15.0 --push
+      - run: mike deploy {{ github.ref }} --push
