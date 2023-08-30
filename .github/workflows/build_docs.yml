@@ -1,8 +1,10 @@
 name: Build Document Template
+
 on:
   push:
     branches:
       - 15.0
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
