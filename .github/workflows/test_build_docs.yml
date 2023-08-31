@@ -1,4 +1,4 @@
-name: Test Run Document Template
+name: Test Build Document Template
 
 on:
   pull_request:
@@ -6,9 +6,9 @@ on:
       - 15.0
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
       - run: pip install mkdocs mkdocs-material
-      - run: mkdocs serve
+      - run: mkdocs build
