@@ -3,7 +3,7 @@ name: Build Document Template
 on:
   push:
     branches:
-      - 15.0
+      - 16.0
 
 jobs:
   deploy:
@@ -15,4 +15,4 @@ jobs:
           git config user.email github-actions[bot]@users.noreply.github.com
           git pull
       - run: pip install mike mkdocs-material
-      - run: mike deploy 15.0 --push
+      - run: mike deploy 16.0 --push
