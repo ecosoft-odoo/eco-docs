@@ -1,64 +1,16 @@
-site_name: Manual (Odoo version 15)
-repo_url: https://github.com/ecosoft-odoo/eco-docs
-edit_uri: edit/main/docs
+# Copyright (c) 2023 Ecosoft Co., Ltd.
 
-nav:
-  - ภาพรวมการทำงานของระบบ: overview.md
-  - การใช้งานเบื้องต้น: 
-    - การเปลี่ยนรหัสผ่าน: basic-features/01_change-password.md
-    - การสื่อสารผ่านระบบ: basic-features/02_noti-message.md
-    - เมนู: basic-features/03_menu.md
-    - การเปลี่ยนมุมมองรายการ: basic-features/04_doc-view.md
-    - การค้นหา (Search): basic-features/05_search.md
-    - การกรองรายการเอกสาร (Filters): basic-features/06_filter.md
-    - การจัดกลุ่มรายการเอกสาร (Group by): basic-features/07_groupby.md
-    - การกำหนดรายการโปรด Favorites: basic-features/08_favorite.md
-    - แถบสถานะเอกสาร (State bar): basic-features/09_state-bar.md
-    - Smart Button: basic-features/10_smart-button.md
-    - การแนบเอกสาร (Attachment): basic-features/11_attachment.md
-
+site_name: Openerp for SQP
+copyright: Copyright &copy; 2023 Ecosoft Co., Ltd.
+repo_url: https://github.com/ecosoft-odoo/sqp-docs  # Add edit on github link
+edit_uri: edit/master/docs  # Point to master branch
+theme: readthedocs
+nav:  # Content organization
+  - "[[Manufacturing]]":
+    - "การผลิตของโรง Continuous"
 markdown_extensions:
-  - attr_list
-  - admonition
-  - tables
-
-theme:
-  name: material
-  logo: img/odoo_logo_tiny.png
-  palette:
-    primary: teal
-    accent: blue
-    scheme: slate
-
-  language: en
-
-  favicon: img/odoo_logo_tiny.png
-
-  features:
-    - navigation.tabs
-    - navigation.sections
-    - navigation.footer
-    - navigation.path
-    - navigation.expand
-    - toc.integrate
-  
-  icon:
-    admonition:
-      Note: octicons/tag-16
-
-extra: 
-    social:
-      - icon: fontawesome/brands/facebook
-        link: https://ecosoft.co.th/
-
-copyright: Copyright (C) 2023 Ecosoft
-    
+    - toc:  # For link for hearders, H1, H2, etc.
+        permalink: "#"  
+    - admonition   # For !!! Note box
 plugins:
-  - search:
-      lang: th
-
-
-#แปะไว้ คำสั่งไว้เพิ่มใน plugins ทีหลัง ใช้สำหรับเพิ่มปุ่ม export to pdf ในหน้าเว็บ 
-#(ถ้าเพิ่มแล้วมีอัปเดต >> terminal จะใช้เวลาค่อนข้างนานในการอัปเดต เพราะเหมือนว่าจะไป create pdf แต่ละหน้าไว้)
-  #pdf-export:
-    #combined: true
+    - search
