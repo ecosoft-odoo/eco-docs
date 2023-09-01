@@ -3,7 +3,7 @@ name: Test Build Document Template
 on:
   pull_request:
     branches:
-      - 15.0
+      - 16.0
 
 jobs:
   build:

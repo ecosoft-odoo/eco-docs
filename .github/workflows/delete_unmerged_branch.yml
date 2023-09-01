@@ -2,7 +2,7 @@ name: Delete Unmerged Branch
 
 on:
   pull_request:
-    branches: [ 15.0 ]
+    branches: [ 16.0 ]
     types: [ closed ]
 
 jobs:
