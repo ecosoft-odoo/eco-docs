@@ -10,5 +10,7 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v3
+      - run: git status
+      - run: git branch
       - run: pip install mkdocs mkdocs-material
       - run: mkdocs build
